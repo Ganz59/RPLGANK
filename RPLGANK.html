@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RPLGANKS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="t.css">
+   
+    <style>
+      html {
+      scroll-behavior: smooth;
+    }
+    h1,h2,h3,h4,h5,h6 {font-family: "lucida bright"}
+    body {font-family: "lucida bright";
+    background-image: radial-gradient(circle at 43.84% -20.44%, #0090ad 0, #008fba 4.55%, #008ec7 9.09%, #008dd2 13.64%, #008bdb 18.18%, #0089e2 22.73%, #0086e8 27.27%, #0083ec 31.82%, #007fed 36.36%, #007aed 40.91%, #0074ea 45.45%, #486ee5 50%, #6c67de 54.55%, #8660d6 59.09%, #9b58cc 63.64%, #ac4fc0 68.18%, #ba47b3 72.73%, #c63ea5 77.27%, #cf3797 81.82%, #d63188 86.36%, #da2d79 90.91%, #dc2d6b 95.45%, #dd305c 100%);}
+    </style>
+  </head>
+<body class="w3-light-white w3-margin">
+
+<!-- Navigation bar with links -->
+<div class="w3-bar w3-white w3-text-black">
+  <h2 class="w3-left w3-tag w3-pale-red w3-round">RPLGANKS</h2>
+  <a href="Blog.html" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">BLOG</a>
+  <a href="About.html" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">ABOUT</a>
+  <a href="#Home" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">HOME</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-medium w3-hide-large" style="margin-top:10px;" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div id="demo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-small">
+  <a href="#Home" class="w3-bar-item w3-button">HOME</a>
+  <a href="About.html" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="Blog.html" class="w3-bar-item w3-button">BLOG</a>
+</div>
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+<br>
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" style="padding-bottom:32px;" id="Home">
+    <img class="w3-image" src="https://i.ibb.co/TRnpdW2/IMG-20231020-WA0065.jpg" alt="Photo by Jamie Street" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+    </div>
+  </header>
+
+  <header class="w3-display-container w3-wide" style="padding-bottom:32px;" id="Home">
+    <img class="w3-image" src="https://i.ibb.co/n0yYgXK/IMG-20231020-WA0066.jpg" alt="Photo by Jamie Street" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+    </div>
+  </header>
+
+  <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+  <footer class="w3-container w3-pale-red w3-center w3-margin-top">
+    <p>Find us on social media.</p>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <p class="w3-small">Support by mogol</p>
+    <a class="w3-button w3-round-xxlarge w3-small w3-white w3-margin-bottom" href="https://instagram.com/sewelaserpeelsiji?igshid=MzMyNGUyNmU2YQ==" target="_blank">Start now</a> <!-- End footer -->
+  </footer>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("demo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

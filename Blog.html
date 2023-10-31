@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPLGANKS</title>
+    <link rel="stylesheet" href="t.css">
+    <style>
+         html {
+      scroll-behavior: smooth;
+    }
+    h1,h2,h3,h4,h5,h6 {font-family: "lucida bright"}
+    body {font-family: "lucida bright";}
+    </style>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("demo");
+          if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+          } else { 
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+        </script>
+</head>
+<body class="w3-light-white w3-margin"></body>
+<div class="w3-bar w3-white w3-text-black">
+    <h2 class="w3-left w3-tag w3-pale-red w3-round">RPLGANKS</h2>
+    <a href="Blog.html" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">BLOG</a>
+    <a href="About.html" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">ABOUT</a>
+    <a href="RPLGANK.html" class="w3-hide-small w3-bar-item w3-button w3-mobile w3-medium w3-right" style="margin-top:10px;">HOME</a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-medium w3-hide-large" style="margin-top:10px;" onclick="myFunction()">&#9776;</a>
+  </div>
+  
+  <div id="demo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-small">
+    <a href="RPLGANK.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="About.html" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="Blog.html" class="w3-bar-item w3-button">BLOG</a>
+  </div>
+
+  <!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+</body>
+</html>
